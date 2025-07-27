@@ -12,24 +12,28 @@ public class Solution5 {
             }
             if(lp== nums.length)
                 break;
-            if(rp<lp){
-                rp=lp+1;
-            }
-            if(rp== nums.length)
-                break;
-            if(nums[rp]==0){
-                rp=rp+1;
+            if(nums[lp]==0) {
+                if (rp < lp) {
+                    rp = lp + 1;
+                }
 
-            }
+                if (rp<nums.length &&nums[rp] == 0 ) {
+                    rp = rp + 1;
 
-            if(lp<nums.length && lp <rp && rp<nums.length && nums[rp]!=0 && nums[lp]==0 ){
-                nums[lp]=nums[rp];
-                nums[rp]=0;
+                }
+                if(rp>=nums.length)
+                    break;
+
+                if (rp < nums.length && nums[rp] != 0 ) {
+                    nums[lp] = nums[rp];
+                    nums[rp] = 0;
+
+                }
 
             }
 
 
         }
-        System.out.println(Arrays.stream(nums).mapToObj(Integer::toString).reduce("",(m, n)->m+n+","));
+
     }
 }
