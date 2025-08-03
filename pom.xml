@@ -18,6 +18,8 @@
         <module>SpiralMatrix</module>
         <module>NumberOfIslands</module>
         <module>MoveZeros</module>
+        <module>BestTimeToBuyAndSellStock</module>
+        <module>SquaresOfASortedArray</module>
     </modules>
 
     <properties>
