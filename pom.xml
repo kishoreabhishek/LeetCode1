@@ -20,6 +20,15 @@
         <module>MoveZeros</module>
         <module>BestTimeToBuyAndSellStock</module>
         <module>SquaresOfASortedArray</module>
+        <module>TwoSumII</module>
+        <module>ThreeSum</module>
+        <module>ArrayMountian</module>
+        <module>ContainsDuplicate</module>
+        <module>MinSizeSubArray</module>
+        <module>CoinChange</module>
+        <module>MaxSubarray</module>
+        <module>LetterCasePermutation</module>
+        <module>Subsets</module>
     </modules>
 
     <properties>
