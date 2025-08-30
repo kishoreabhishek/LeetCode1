@@ -29,6 +29,11 @@
         <module>MaxSubarray</module>
         <module>LetterCasePermutation</module>
         <module>Subsets</module>
+        <module>Combinations</module>
+        <module>Permutations</module>
+        <module>ReverseLinkedList</module>
+        <module>RemoveLLElements</module>
+        <module>ReverseLL2</module>
     </modules>
 
     <properties>
